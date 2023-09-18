@@ -12,4 +12,12 @@ Languages Used :
 Modules :
 
 - `ZK Arithmetics`
-  - `Zk-Arithmetics-1.ipynb` : Basic integer operations
+  - `Zk-Arithmetics-1.ipynb`
+    - Basic Operations
+    - Eucledean Division
+    - Extended Eucledean Division (G.C.D.)
+    - Number Representation
+  - `Zk-Arithmetics-2.ipynb`
+    - Modular Arithmetics
+    - Fermat's little theorem
+    - Solving Equations (using compatibility theorems)
