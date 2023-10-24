@@ -21,3 +21,14 @@ Modules :
     - Modular Arithmetics
     - Fermat's little theorem
     - Solving Equations (using compatibility theorems)
+    - Chinese Remainder Theorem
+    - Remainder Class Representation
+    - Modular Arithmetic & Operations
+  - `Zk-Arithmetics-3.ipynb`
+    - Polynomial Arithmetic
+    - Operation on polynomial equations
+    - Eucledean Division with polynomials
+    - Irreducable Polinomial (prime factoring in polynomials)
+    - Lagrange Interpolation
+- `Zk Algebra`
+  - `Zk-Algebra-1.ipynb`
