@@ -39,3 +39,5 @@ Modules :
     - Hashing Functions
     - Hashing to group
     - SHA256
+  - `Set Theory`
+    - Binary Operations in set theory
