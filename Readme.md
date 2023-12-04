@@ -41,3 +41,4 @@ Modules :
     - SHA256
   - `Set Theory`
     - Binary Operations in set theory
+- `ECC (Eliptical Curve Cryptography)`
