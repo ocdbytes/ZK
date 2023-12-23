@@ -5,7 +5,7 @@ This repository includes all the code implementations for zk-snark verifying sys
 Book : The moonmath manual to zk-snarks
 
 ```sh
-$ sage -n jupyter
+sage -n jupyter
 ```
 
 Languages Used :
@@ -53,3 +53,9 @@ Modules :
   - `ECC_4.ipynb`
     - ZK Proof Example using ECC
     - ECDSA malleability attack
+- `Bilinear Pairings`
+  - `BP_1.ipynb`
+    - Bilinear Pairing Concepts
+  - `precompile_test/`
+    - 0x08 Precompile implementation
+    - Simple test for working
