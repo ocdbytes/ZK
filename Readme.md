@@ -59,3 +59,13 @@ Modules :
   - `precompile_test/`
     - 0x08 Precompile implementation
     - Simple test for working
+- `R1CS`
+  - `main.ipynb`
+    - Transformation of Different Equations
+    - Addition with constants
+    - Multiplication with constants
+  - `circuit/`
+    - Multiply2()
+    - witness generation
+  - `circuit2/`
+    - Multiply4()
