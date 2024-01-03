@@ -2,15 +2,15 @@
 
 This repository includes all the code implementations for zk-snark verifying systems from simple arithmetics behind it to the circuit design and working.
 
-Book : The moonmath manual to zk-snarks
-
 ```sh
+# For running the sage compiler
 sage -n jupyter
 ```
 
-Languages Used :
+**Languages Used :**
 
 - Sage (for solving equations and plotting)
+- Python (for visualising the proofs of theorems and polynomial operations)
 - Circom (to design zk circuits)
 
 Modules :
@@ -69,3 +69,14 @@ Modules :
     - witness generation
   - `circuit2/`
     - Multiply4()
+- `Q.A.P`
+  - `main.ipynb`
+    - Example showing addition of two vectors is homomorphic to addition of two polynomials
+    - Example showing hadamard product of two vectors is homomorphic to multiplication of two polynomials
+    - Ex : Multiplying a vector by a scalar is homomorphic to multiplying the polynomial by the same scalar
+
+Sources :
+
+- [Moon Math manual](./main-moonmath.pdf)
+- [zkSecureum puzzles](./zkSecureum_notes.pdf)
+- [RareSkills ZK book](https://www.rareskills.io/zk-book)
