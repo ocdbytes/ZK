@@ -13,7 +13,7 @@ sage -n jupyter
 - Python (for visualising the proofs of theorems and polynomial operations)
 - Circom (to design zk circuits)
 
-Modules :
+**Modules :**
 
 - `ZK Arithmetics`
   - `Zk-Arithmetics-1.ipynb`
@@ -75,7 +75,7 @@ Modules :
     - Example showing hadamard product of two vectors is homomorphic to multiplication of two polynomials
     - Ex : Multiplying a vector by a scalar is homomorphic to multiplying the polynomial by the same scalar
 
-Sources :
+**Sources :**
 
 - [Moon Math manual](./main-moonmath.pdf)
 - [zkSecureum puzzles](./zkSecureum_notes.pdf)
