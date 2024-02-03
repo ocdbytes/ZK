@@ -3,15 +3,17 @@
 This repository includes all the code implementations for zk-snark verifying systems from simple arithmetics behind it to the circuit design and working.
 
 ```sh
-# For running the sage compiler
-sage -n jupyter
+prove(inputs, algorithm_description) -> (encrypted_inputs, proof, public_output)
+
+verify(encrypted_inputs, proof, algorithm_description) == public_output
 ```
 
 **Languages Used :**
 
-- Sage (for solving equations and plotting)
+- Sage (for solving equations over a field and plotting)
 - Python (for visualising the proofs of theorems and polynomial operations)
 - Circom (to design zk circuits)
+- Markdown (for readme)
 
 **Modules :**
 
@@ -75,8 +77,22 @@ sage -n jupyter
     - Example showing hadamard product of two vectors is homomorphic to multiplication of two polynomials
     - Ex : Multiplying a vector by a scalar is homomorphic to multiplying the polynomial by the same scalar
 
+**Setup :**
+
+```sh
+# For running the sage compiler
+sage -n jupyter
+```
+
 **Sources :**
 
 - [Moon Math manual](./main-moonmath.pdf)
 - [zkSecureum puzzles](./zkSecureum_notes.pdf)
 - [RareSkills ZK book](https://www.rareskills.io/zk-book)
+- [0xPARC](https://learn.0xparc.org/materials/circom/learning-group-1/intro-zkp/)
+
+**Dev Tools :**
+
+- [Hardhat Circom](https://github.com/projectsophon/hardhat-circom)
+- [Online Circom Compiler](https://zkrepl.dev/)
+- [CircomLib](https://github.com/iden3/circomlib)
