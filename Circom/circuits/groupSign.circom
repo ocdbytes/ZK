@@ -67,7 +67,7 @@ template RevealSigner () {
     signal input pk;
     signal input msgHash;
     signal input attestation;
-``
+
     // prove : PubKeyGen(sk) === pk
     // prove : Hash(sk, msg) === attestation
 }
